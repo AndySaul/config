@@ -7,6 +7,14 @@ set termencoding=utf-8
 
 "______________________________________________________________________________
 " Plugins
+" Additional steps:
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+" :PluginInstall
+" YCM:
+" sudo apt install build-essential cmake vim python3-dev clangd
+" cd ~/.vim/bundle/YouCompleteMe
+" python3 install.py --clangd-completer
+" sudo apt install clang-format-10
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
