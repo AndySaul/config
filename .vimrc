@@ -14,7 +14,8 @@ set termencoding=utf-8
 " sudo apt install build-essential cmake vim python3-dev clangd
 " cd ~/.vim/bundle/YouCompleteMe
 " python3 install.py --clangd-completer
-" sudo apt install clang-format-10
+" Others:
+" sudo apt install clang-format-10 ctags
 set rtp+=~/.vim/bundle/Vundle.vim
 
 call vundle#begin()
